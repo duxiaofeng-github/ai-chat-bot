@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "sourceMap": false,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "react",
+    "module": "esnext",
+    "target": "esnext",
+    "lib": ["es2016", "dom"]
+  },
+  "include": ["**/global.d.ts", "src/declaration.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["tests/**", "node_modules"]
+}

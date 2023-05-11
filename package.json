@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "serve": "NODE_ENV=development webpack serve",
+    "build": "npm -v && npm run clean && NODE_ENV=production webpack"
+  },
+  "dependencies": {
+    "antd": "^5.4.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "webpack": "^5.82.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.21.5",
+    "@linaria/babel-preset": "^4.4.5",
+    "@linaria/core": "^4.2.10",
+    "@linaria/react": "^4.3.8",
+    "@linaria/shaker": "^4.2.11",
+    "@linaria/webpack-loader": "^4.1.17",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "dotenv-webpack": "^8.0.1",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.5",
+    "ts-loader": "^9.4.2",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  }
+}
